@@ -219,13 +219,6 @@ public class Main extends JavaPlugin {
 			public void run() {
 				World world = getServer().getWorld(config.getConfig(ConfigEnum.CONFIG).getString("world-name"));
 				world.setSpawnLocation(0, getServer().getWorlds().get(0).getHighestBlockYAt(0, 0), 0);
-				/*
-				 * for (int x = -3; x <= 3; x++) for (int z = -3; z <= 3; z++)
-				 * if (!world.getSpawnLocation().clone().add(x * 16, 0, z *
-				 * 16).getChunk().isLoaded()) {
-				 * world.getSpawnLocation().clone().add(x * 16, 0, z *
-				 * 16).getChunk().load(); }
-				 */
 				world.setDifficulty(Difficulty.NORMAL);
 				if (world.hasStorm())
 					world.setStorm(false);
@@ -268,14 +261,7 @@ public class Main extends JavaPlugin {
 				chunk.load(true);
 			}
 		}
-		/*
-		 * Hologram holo = HologramAPI.createHologram(new
-		 * Location(Bukkit.getWorld("world"), 0.50, 150.50, 15.50),
-		 * "§6TOP 10 WINS"); holo.spawn(); int i = 0; for (Status stats :
-		 * Status.getTopStatus(Integer.valueOf(10), Order.WINS)) { i++;
-		 * holo.addLineBelow("§c" + i + "º§7 - §6" + stats.getname() +
-		 * "§7 com §6" + stats.getWins() + " " + "wins"); }
-		 */
+	
 	}
 
 	@SuppressWarnings("deprecation")
