@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="E:/LikeHG/LikeHG - OLD/BossBarAPI(1.0).jar"/>
+	<classpathentry kind="lib" path="E:/LikeHG/LikeHG - OLD/bukkit-1.7.9-R0.1-20140514.121658-11.jar"/>
+	<classpathentry kind="lib" path="E:/LikeHG/LikeHG - OLD/HologramaAPI(1.0).jar"/>
+	<classpathentry kind="lib" path="E:/LikeHG/LikeHG - OLD/LibsDisguises spigothack.jar"/>
+	<classpathentry kind="lib" path="E:/LikeHG/LikeHG - OLD/LikeClans(1.2).jar"/>
+	<classpathentry kind="lib" path="E:/LikeHG/LikeHG - OLD/LikeTags(1.0).jar"/>
+	<classpathentry kind="lib" path="E:/LikeHG/LikeHG - OLD/ModAPI(1.0).jar"/>
+	<classpathentry kind="lib" path="E:/LikeHG/LikeHG - OLD/OldLikeHG(2.2).jar"/>
+	<classpathentry kind="lib" path="E:/LikeHG/LikeHG - OLD/TagAPI(1.0).jar"/>
+	<classpathentry kind="lib" path="E:/LikeHG/LikeHG - OLD/TerrainControl.jar"/>
+	<classpathentry kind="lib" path="E:/LikeHG/PaperSpigot-1.7.10-R0.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
